@@ -5,21 +5,10 @@
   "author": "silverwind",
   "repository": "silverwind/default-gateway",
   "license": "BSD-2-Clause",
-  "main": "index.js",
+  "main": "linux.js",
   "engines": {
     "node": ">= 10"
   },
-  "files": [
-    "index.js",
-    "android.js",
-    "darwin.js",
-    "freebsd.js",
-    "linux.js",
-    "openbsd.js",
-    "sunos.js",
-    "win32.js",
-    "ibmi.js"
-  ],
   "dependencies": {
     "execa": "^5.0.0"
   },
